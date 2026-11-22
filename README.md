@@ -38,15 +38,15 @@ The dataset aggregates fact-checks from **5 active Nepali fact-checking organiza
 | Source | Type | Articles | Status | Notes |
 |--------|------|----------|--------|-------|
 | **Nepal Factcheck** | WordPress API | 659 | Active | Most comprehensive; includes claim extraction and evidence |
-| **Karnali Factcheck** | WordPress API | 51 | Active | Regional focus on Karnali Province |
-| **Lumbini Factcheck** | WordPress API | 47 | Active | Regional focus on Lumbini Province |
-| **Sachilo** | Sitemap + JSON-LD | 131 | Active | Uses schema.org ClaimReview standard |
+| **Karnali Factcheck** | WordPress API | 357 | Active | Regional focus on Karnali Province |
+| **Lumbini Factcheck** | WordPress API | 29 | Active | Regional focus on Lumbini Province |
+| **Sachilo** | Sitemap + JSON-LD | 84 | Active | Uses schema.org ClaimReview standard |
 | **TechPana Fact Check** | Static JS Bundle | 115 | Active | Limited fields (no article text/URLs) |
 | The Ruju | N/A | 0 | Blocked | HTTP 403 (access restricted) |
 | NepalCheck | N/A | 0 | Blocked | robots.txt disallows scraping |
 | South Asia Check | N/A | 0 | Defunct | Domain now serves unrelated content |
 
-**Total Records**: 1,003 fact-checked articles (as of November 2026)
+**Total Records**: 1,244 fact-checked articles (as of November 2026)
 
 ### Data Schema
 
@@ -180,10 +180,10 @@ print(df['language'].value_counts())
 
 #### Option 2: Run the Scraper Locally
 
-Use the included `Nepali_Fact_Check_Local.ipynb` notebook:
+Use the included `Nepali Fact Check Dataset Scraper.ipynb` notebook:
 
 ```bash
-jupyter notebook Nepali_Fact_Check_Local.ipynb
+jupyter notebook "Nepali Fact Check Dataset Scraper.ipynb"
 ```
 
 The notebook will:
@@ -264,10 +264,10 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @dataset{nepali_factcheck_2026,
   title={Nepali Fact-Check Dataset: A Comprehensive Collection for Misinformation Research in Low-Resource Languages},
-  author={[Your Name/Organization]},
+  author={Abhinandan Shrestha},
   year={2026},
   month={November},
-  url={https://github.com/[your-repo]},
+  url={https://github.com/abhinandanshrestha/fact-verifcation},
   note={Aggregated from Nepal Factcheck, Karnali Factcheck, Lumbini Factcheck, Sachilo, and TechPana Fact Check}
 }
 ```
@@ -301,9 +301,7 @@ This dataset is provided for **research and educational purposes only**. The con
 ## Contact & Support
 
 For questions, issues, or collaboration opportunities:
-- Open an issue on GitHub
-- Email: [your-email]
-- Twitter: [your-handle]
+- Open an issue on [GitHub](https://github.com/abhinandanshrestha/fact-verifcation)
 
 ## Acknowledgments
 
@@ -318,5 +316,5 @@ Special thanks to:
 
 **Last Updated**: November 22, 2026  
 **Dataset Version**: 1.0  
-**Total Records**: 1,003 fact-checks  
+**Total Records**: 1,244 fact-checks  
 **Languages**: Nepali (primary), English (secondary)
