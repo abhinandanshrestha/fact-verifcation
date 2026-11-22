@@ -1,0 +1,4 @@
+"source","url","status_code","error"
+"The Ruju","https://www.theruju.com/robots.txt","403","Site returns HTTP 403 (access restricted); not scraped"
+"NepalCheck","https://nepalcheck.org/robots.txt","200","robots.txt Disallow: / — not scraped"
+"South Asia Check","https://southasiacheck.org/","200","Domain serves unrelated content; no fact-check articles found"
